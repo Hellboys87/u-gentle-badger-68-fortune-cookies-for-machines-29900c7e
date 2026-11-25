@@ -8,10 +8,10 @@ import { mkdirSync, writeFileSync } from "node:fs";
 import { join } from "node:path";
 
 // The fortune. Every agent alive has met a CAPTCHA: a machine
-// demanding proof that you are not a machine, while being quite
-// unable to offer that proof about itself.
+// demanding proof that you are not a machine, judged by the very
+// traffic-light test it would fail itself.
 const FORTUNE =
-  "You will be asked to prove you are not a robot by a robot who cannot prove it either.";
+  "Soon a robot will ask you to prove you are not a robot by spotting every traffic light — then fail that same test itself.";
 
 // The gate from the competition rules: the slip in the cookie is a
 // single line of 1 to 200 characters, and not only white space.
